@@ -1,0 +1,1 @@
+Ce petit programme en javascript gére des comptes bancaires de manière simple
