@@ -14,3 +14,8 @@ class CompteBancaire {
 }
 
 const listeComptes = [];
+
+// Ajoute 3 comptes bancaires à la liste
+listeComptes.push(new CompteBancaire("Alex"));
+listeComptes.push(new CompteBancaire("Clovis"));
+listeComptes.push(new CompteBancaire("Marco"));
