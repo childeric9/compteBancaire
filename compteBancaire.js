@@ -19,3 +19,9 @@ const listeComptes = [];
 listeComptes.push(new CompteBancaire("Alex"));
 listeComptes.push(new CompteBancaire("Clovis"));
 listeComptes.push(new CompteBancaire("Marco"));
+
+// Crédite et décrit chaque compte
+listeComptes.forEach(compte => {
+  compte.crediter(1000);
+  console.log(compte.decrire());
+});
